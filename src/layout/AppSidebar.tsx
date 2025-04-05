@@ -14,6 +14,7 @@ import {
   PlugInIcon,
   TableIcon,
   UserCircleIcon,
+  GroupIcon,
 } from "../icons";
 import { useSidebar } from "../context/SidebarContext";
 import SidebarWidget from "./SidebarWidget";
@@ -30,6 +31,11 @@ const navItems: NavItem[] = [
     icon: <GridIcon />,
     name: "Dashboard",
     subItems: [{ name: "Ecommerce", path: "/", pro: false }],
+  },
+  {
+    icon: <GroupIcon />,
+    name: "Clients/Patients",
+    path: "/clients",
   },
   {
     icon: <CalenderIcon />,
@@ -309,14 +315,14 @@ const AppSidebar: React.FC = () => {
               <img
                 className="dark:hidden"
                 src="/images/logo/logo.svg"
-                alt="Logo"
+                alt="YUNA Dashboard Logo"
                 width={150}
                 height={40}
               />
               <img
                 className="hidden dark:block"
                 src="/images/logo/logo-dark.svg"
-                alt="Logo"
+                alt="YUNA Dashboard Logo"
                 width={150}
                 height={40}
               />
@@ -324,7 +330,7 @@ const AppSidebar: React.FC = () => {
           ) : (
             <img
               src="/images/logo/logo-icon.svg"
-              alt="Logo"
+              alt="YUNA Dashboard Logo"
               width={32}
               height={32}
             />
