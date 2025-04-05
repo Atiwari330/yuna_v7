@@ -39,6 +39,11 @@ const navItems: NavItem[] = [
     path: "/clients",
   },
   {
+    icon: <ListIcon />,
+    name: "Onboarding Hub",
+    path: "/onboarding",
+  },
+  {
     icon: <ChatIcon />,
     name: "AI Calls",
     path: "/calls",
