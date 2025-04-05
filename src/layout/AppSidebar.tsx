@@ -5,6 +5,7 @@ import { Link, useLocation } from "react-router";
 import {
   BoxCubeIcon,
   CalenderIcon,
+  ChatIcon,
   ChevronDownIcon,
   GridIcon,
   HorizontaLDots,
@@ -36,6 +37,11 @@ const navItems: NavItem[] = [
     icon: <GroupIcon />,
     name: "Clients/Patients",
     path: "/clients",
+  },
+  {
+    icon: <ChatIcon />,
+    name: "AI Calls",
+    path: "/calls",
   },
   {
     icon: <CalenderIcon />,

@@ -19,6 +19,7 @@ import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
 import ClientsPatients from "./pages/Clients/ClientsPatients";
+import CallsDashboard from "./pages/Calls/CallsDashboard";
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/blank" element={<Blank />} />
             <Route path="/clients" element={<ClientsPatients />} />
+            <Route path="/calls" element={<CallsDashboard />} />
 
             {/* Forms */}
             <Route path="/form-elements" element={<FormElements />} />
