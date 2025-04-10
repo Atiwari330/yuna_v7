@@ -54,6 +54,11 @@ const navItems: NavItem[] = [
     path: "/landing-pages",
   },
   {
+    icon: <GroupIcon />,
+    name: "Therapist Matching",
+    path: "/therapist-matching",
+  },
+  {
     icon: <CalenderIcon />,
     name: "Calendar",
     path: "/calendar",

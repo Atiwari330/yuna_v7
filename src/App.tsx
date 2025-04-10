@@ -22,6 +22,7 @@ import ClientsPatients from "./pages/Clients/ClientsPatients";
 import CallsDashboard from "./pages/Calls/CallsDashboard";
 import OnboardingDashboard from "./pages/Onboarding/OnboardingDashboard";
 import LandingPageDashboard from "./pages/LandingPages/LandingPageDashboard";
+import TherapistMatchingDashboard from "./pages/Matching/TherapistMatchingDashboard";
 
 export default function App() {
   return (
@@ -41,6 +42,7 @@ export default function App() {
             <Route path="/onboarding" element={<OnboardingDashboard />} />
             <Route path="/calls" element={<CallsDashboard />} />
             <Route path="/landing-pages" element={<LandingPageDashboard />} />
+            <Route path="/therapist-matching" element={<TherapistMatchingDashboard />} />
 
             {/* Forms */}
             <Route path="/form-elements" element={<FormElements />} />
