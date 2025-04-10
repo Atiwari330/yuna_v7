@@ -21,6 +21,7 @@ import Home from "./pages/Dashboard/Home";
 import ClientsPatients from "./pages/Clients/ClientsPatients";
 import CallsDashboard from "./pages/Calls/CallsDashboard";
 import OnboardingDashboard from "./pages/Onboarding/OnboardingDashboard";
+import LandingPageDashboard from "./pages/LandingPages/LandingPageDashboard";
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
             <Route path="/clients" element={<ClientsPatients />} />
             <Route path="/onboarding" element={<OnboardingDashboard />} />
             <Route path="/calls" element={<CallsDashboard />} />
+            <Route path="/landing-pages" element={<LandingPageDashboard />} />
 
             {/* Forms */}
             <Route path="/form-elements" element={<FormElements />} />
